@@ -1,0 +1,122 @@
+
+
+/*------------------------------------------------------------------
+  Please use this file to be debugged or modified
+-------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+  Debug top button 13.08  <prestazilla@gmail.com>
+-------------------------------------------------------------------*/
+
+
+.menu_c{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  
+		display:block !important;
+		transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	 visibility: hidden;
+}
+
+.menu_cshow .menu_c{
+
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+   visibility: visible;
+}
+
+
+
+
+/*------------------------------------------------------------------
+  Responsive home block info  18.08  <prestazilla@gmail.com>
+-------------------------------------------------------------------*/
+
+
+ @media  (min-width: 750px) and (max-width: 1100px) {
+
+	
+html body   #content  .box_inn{
+		 display:block;
+	 }
+	 
+ }
+ 
+ 
+ @media  (min-width: 750px) and (max-width: 950px){	 
+	 
+
+	 
+html #content .h_row_1 p {
+    line-height: 19px;
+}
+
+html .ideas-hover1 h5 {
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+
+html #content .h_row_2 .box_2 p {
+    color: #ffffff;
+    line-height: 14px;
+}
+
+html #content .h_row_1 .box_2 h1 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+html #content .h_row_1 p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#content .h_row_2 .box_2 p {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#content .h_row_2 .box_2 h1 {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+	 }
+	 
+	 
+	 
+/*------------------------------------------------------------------
+MENU open fix  08.11  <prestazilla@gmail.com>
+-------------------------------------------------------------------*/ 
+
+
+.open-nav .dropdown-menu , .open .dropdown-menu {
+    opacity: 1;
+}
+	
+
+
+	 
+/*------------------------------------------------------------------
+  17.12  <prestazilla@gmail.com>
+-------------------------------------------------------------------*/ 
+
+
+html #header .right_menu {
+    z-index: 788;
+}

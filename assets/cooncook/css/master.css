@@ -1,0 +1,44 @@
+
+
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: CoonCook 
+Version: 1.1
+Creat: 8/07/2014 [fixed]
+Last change: 16/07/2014 [fixed]
+Assigned to: Mike Prestazill  
+-------------------------------------------------------------------*/
+
+/* Fonts css */
+
+@import "../fonts/lato/stylesheet.css";
+@import "../fonts/font-awesome/css/font-awesome.min.css";
+
+/* Basic css */
+
+
+
+@import "bootstrap-theme.css";
+@import "bootstrap.css";
+@import "style.css";
+@import "minimal.css";
+@import "jquery.bxslider.css";
+
+/* Additional css */
+
+@import "yamm.css";
+@import "jquery-ui.css";
+@import "jquery.ui.slider.css";
+@import "flexslider.css";
+@import "flexslider-product.css";
+@import "animate.css";
+@import "hover.css";
+@import "jquery.selectbox.css";
+@import "responsive.css";
+
+
+/* Please use this file to be debugged or modified */
+
+ @import "debugging.css"; 
